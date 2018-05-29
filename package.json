@@ -1,0 +1,65 @@
+{
+  "name": "tokenify",
+  "description": "Command line utility to get refresh tokens for Spotify API to build Spotify apps. Follow some questions and we'll do the rest.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "vvo/tokenify",
+  "bin": {
+    "tokenify": "src/index.js"
+  },
+  "scripts": {
+    "doctoc": "doctoc --maxlevel 2 README.md",
+    "test": "npm run lint",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "update-docs": "npm run doctoc && git add README.md && git commit -am 'docs(READMES): update' && git push",
+    "release": "standard-version && conventional-github-releaser --preset angular && git push --follow-tags origin master && npm publish"
+  },
+  "dependencies": {
+    "enquirer": "1.0.3",
+    "node-fetch": "2.1.2",
+    "open": "0.0.5",
+    "prompt-confirm": "2.0.0",
+    "prompt-password": "1.2.0",
+    "terminal-link": "1.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.3",
+    "conventional-github-releaser": "3.0.0",
+    "eslint": "4.19.1",
+    "eslint-config-algolia": "13.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.12.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "prettier": "1.13.2"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "spotify",
+    "refresh",
+    "token",
+    "oauth"
+  ],
+  "renovate": {
+    "extends": [
+      "config:js-lib",
+      "algolia"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "algolia"
+    ],
+    "rules": {
+      "curly": "error",
+      "import/no-commonjs": "off",
+      "import/order": "error",
+      "arrow-body-style": [
+        "error",
+        "always"
+      ]
+    }
+  }
+}
