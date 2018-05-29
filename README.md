@@ -43,7 +43,7 @@ yarn release
 ```
 
 [travis-svg]: https://img.shields.io/travis/vvo/tokenify/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/vvo/tokenify
+[travis-url]: https://travis-ci.com/vvo/tokenify
 [license-image]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
 [license-url]: LICENSE
 [downloads-image]: https://img.shields.io/npm/dm/tokenify.svg?style=flat-square
