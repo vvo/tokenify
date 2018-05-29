@@ -9,6 +9,7 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Why?](#why)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Release](#release)
@@ -22,6 +23,10 @@ While building applications with the Spotify API, [the authorization guide](http
 Default tokens on the Spotify API have an expiration time, to be able to get new tokens, you need a refresh token.
 
 But to obtain a refresh token, the process is a bit tedious, so if as me you just want to obtain one and then save it somewhere in and environement variable, use `tokenify`!
+
+## Demo
+
+![Demo of tokenify](demo.gif)
 
 ## Installation
 
