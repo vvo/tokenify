@@ -17,7 +17,7 @@ const getCode = new Promise(resolve => {
   const server = http.createServer((req, res) => {
     res.setHeader('content-type', 'text/html; charset=utf-8');
     res.write(
-      '<h1>🎰 refreshfy: SUCCESS!</h1><h2>Close this and go back to terminal.</h2>'
+      '<h1>🎰 tokenify: SUCCESS!</h1><h2>Close this and go back to terminal.</h2>'
     );
     res.end();
     const {
@@ -32,7 +32,7 @@ const getCode = new Promise(resolve => {
 });
 
 async function run() {
-  console.log(`🎰  refreshfy:
+  console.log(`🎰  tokenify:
 ---
 Welcome! This cli tool will help you get a refresh token from Spotify.
 So you can build your Spotify app without having to spend days trying to figure
@@ -78,7 +78,7 @@ The steps are clickable links when feasible, hold ⌘ or CTRL and click them.`);
   console.log();
 
   console.log(
-    'Once created and configured, on your app page, you can access your API credentials named `Client ID` and `Client Secret`. refreshfy needs them to continue.'
+    'Once created and configured, on your app page, you can access your API credentials named `Client ID` and `Client Secret`. tokenify needs them to continue.'
   );
   const { clientId } = await enquirer.prompt({
     name: 'clientId',
