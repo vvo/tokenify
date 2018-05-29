@@ -1,6 +1,6 @@
 {
   "name": "tokenify",
-  "description": "Command line utility to get refresh tokens for Spotify API to build Spotify apps. Follow some questions and we'll do the rest.",
+  "description": "Interactive command line tool to easily get refresh tokens for Spotify API",
   "version": "1.0.0",
   "license": "MIT",
   "repository": "vvo/tokenify",
@@ -40,7 +40,9 @@
     "spotify",
     "refresh",
     "token",
-    "oauth"
+    "oauth",
+    "cli",
+    "command line"
   ],
   "renovate": {
     "extends": [
