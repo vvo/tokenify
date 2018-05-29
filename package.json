@@ -13,7 +13,7 @@
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "update-docs": "npm run doctoc && git add README.md && git commit -m 'docs(READMES): update' && git push",
-    "release": "standard-version && conventional-github-releaser --preset angular && git push --follow-tags origin master && npm publish"
+    "release": "standard-version && git push --follow-tags origin master && npm publish && conventional-github-releaser --preset angular"
   },
   "dependencies": {
     "enquirer": "1.0.3",
