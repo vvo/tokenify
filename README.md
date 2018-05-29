@@ -11,6 +11,7 @@
 - [Why?](#why)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Release](#release)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -33,6 +34,12 @@ npm install -g tokenify
 
 ```sh
 tokenify
+```
+
+## Release
+
+```sh
+yarn release
 ```
 
 [travis-svg]: https://img.shields.io/travis/vvo/tokenify/master.svg?style=flat-square
