@@ -39,7 +39,7 @@ tokenify
 ## Release
 
 ```sh
-yarn release
+npm run release
 ```
 
 [travis-svg]: https://img.shields.io/travis/vvo/tokenify/master.svg?style=flat-square
