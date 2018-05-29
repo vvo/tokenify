@@ -121,7 +121,19 @@ The steps are clickable links when feasible, hold ⌘ or CTRL and click them.`);
   });
 
   console.log();
-  console.log(`SUCCESS! You refresh_token is: ${refreshToken}`);
+  console.log(
+    `SUCCESS! You refresh_token is ready, continue to next step to display it...`
+  );
+
+  await enquirer.prompt({
+    type: 'confirm',
+    name: 'step',
+    message: 'Show refresh_token?',
+  });
+
+  console.log();
+  console.log(`Here's your refresh_token: ${refreshToken}`);
+
   process.exit(0); // eslint-disable-line no-process-exit
 }
 
