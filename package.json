@@ -1,7 +1,7 @@
 {
   "name": "tokenify",
   "description": "Interactive command line tool to easily get refresh tokens for Spotify API",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": "vvo/tokenify",
   "bin": {
