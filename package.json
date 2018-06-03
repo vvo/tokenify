@@ -19,7 +19,7 @@
     "enquirer": "1.0.3",
     "node-fetch": "2.1.2",
     "open": "0.0.5",
-    "prompt-confirm": "2.0.0",
+    "prompt-confirm": "2.0.4",
     "prompt-password": "1.2.0",
     "terminal-link": "1.1.0"
   },
