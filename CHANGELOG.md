@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/vvo/tokenify/compare/v1.1.1...v1.1.2) (2018-06-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prompt-confirm to v2.0.4 ([4c2e01e](https://github.com/vvo/tokenify/commit/4c2e01e))
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/vvo/tokenify/compare/v1.1.0...v1.1.1) (2018-06-05)
 
