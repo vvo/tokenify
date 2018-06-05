@@ -758,12 +758,13 @@ conventional-commits-parser@^2.1.1, conventional-commits-parser@^2.1.7:
     through2 "^2.0.0"
     trim-off-newlines "^1.0.0"
 
-conventional-github-releaser@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/conventional-github-releaser/-/conventional-github-releaser-3.0.0.tgz#5875eacceeed67f8fbc996e439788541afe11aca"
+conventional-github-releaser@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/conventional-github-releaser/-/conventional-github-releaser-3.1.0.tgz#7eb75e8037a568e2bca2b529f56559a6d2078753"
   dependencies:
     conventional-changelog "^1.1.0"
     dateformat "^3.0.0"
+    debug "^3.1.0"
     gh-got "^7.0.0"
     git-semver-tags "^1.0.0"
     lodash.merge "^4.0.2"
@@ -2182,9 +2183,9 @@ prepend-http@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
 
-prettier@1.13.2:
-  version "1.13.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.13.2.tgz#412b87bc561cb11074d2877a33a38f78c2303cda"
+prettier@1.13.4:
+  version "1.13.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.13.4.tgz#31bbae6990f13b1093187c731766a14036fa72e6"
 
 process-nextick-args@~2.0.0:
   version "2.0.0"
@@ -2263,9 +2264,9 @@ prompt-choices@^4.0.5:
     terminal-paginator "^2.0.2"
     toggle-array "^1.0.1"
 
-prompt-confirm@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/prompt-confirm/-/prompt-confirm-2.0.0.tgz#212e88b52efe20cac9157994c34ed2caa704f7b6"
+prompt-confirm@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/prompt-confirm/-/prompt-confirm-2.0.4.tgz#42c06907333e876f2ae8867281e0b9521a4796ca"
   dependencies:
     ansi-cyan "^0.1.1"
     prompt-base "^4.0.1"

@@ -19,19 +19,19 @@
     "enquirer": "1.0.3",
     "node-fetch": "2.1.2",
     "open": "0.0.5",
-    "prompt-confirm": "2.0.0",
+    "prompt-confirm": "2.0.4",
     "prompt-password": "1.2.0",
     "terminal-link": "1.1.0"
   },
   "devDependencies": {
     "babel-eslint": "8.2.3",
-    "conventional-github-releaser": "3.0.0",
+    "conventional-github-releaser": "3.1.0",
     "eslint": "4.19.1",
     "eslint-config-algolia": "13.1.0",
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-import": "2.12.0",
     "eslint-plugin-prettier": "2.6.0",
-    "prettier": "1.13.2",
+    "prettier": "1.13.4",
     "standard-version": "4.4.0"
   },
   "files": [
