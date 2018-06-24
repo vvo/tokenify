@@ -91,6 +91,21 @@ The steps are clickable links when feasible, hold ⌘ or CTRL and click them.`);
   });
 
   await enquirer.prompt({ type: 'confirm', name: 'step', message: 'Continue' });
+
+  console.log();
+
+  console.log(
+    `Now you need to declare the Spotify API scopes your application need access to, ${terminalLink(
+      'they are listed here',
+      'https://developer.spotify.com/documentation/general/guides/scopes/'
+    )}`
+  );
+
+  const { scopes } = await enquirer.prompt({
+    name: 'scopes',
+    message: 'Which scopes do you need? (space separated list)',
+  });
+
   console.log();
 
   console.log(
@@ -102,7 +117,7 @@ The steps are clickable links when feasible, hold ⌘ or CTRL and click them.`);
   open(
     `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=code&redirect_uri=${encodeURIComponent(
       redirectURI
-    )}&scope=playlist-read-private`
+    )}&scope=${encodeURIComponent(scopes)}`
   );
 
   const code = await getCode;
