@@ -24,7 +24,7 @@
     "terminal-link": "1.1.0"
   },
   "devDependencies": {
-    "babel-eslint": "8.2.6",
+    "babel-eslint": "9.0.0",
     "eslint": "5.4.0",
     "eslint-config-algolia": "13.1.0",
     "eslint-config-prettier": "3.0.1",
