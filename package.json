@@ -21,7 +21,7 @@
     "open": "0.0.5",
     "prompt-confirm": "2.0.4",
     "prompt-password": "1.2.0",
-    "terminal-link": "1.1.0"
+    "terminal-link": "1.2.0"
   },
   "devDependencies": {
     "babel-eslint": "10.0.1",

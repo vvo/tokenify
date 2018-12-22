@@ -4036,9 +4036,9 @@ term-size@^1.2.0:
   dependencies:
     execa "^0.7.0"
 
-terminal-link@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/terminal-link/-/terminal-link-1.1.0.tgz#8573e830db810baa62ce67859c1f102e88fa4318"
+terminal-link@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/terminal-link/-/terminal-link-1.2.0.tgz#ed1ac495da75a8c3eadc8a5db985226e451edffd"
   dependencies:
     ansi-escapes "^3.1.0"
     supports-hyperlinks "^1.0.1"
