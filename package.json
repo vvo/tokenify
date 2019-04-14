@@ -31,7 +31,7 @@
     "eslint-plugin-import": "2.16.0",
     "eslint-plugin-prettier": "3.0.1",
     "prettier": "1.17.0",
-    "release-it": "10.4.0"
+    "release-it": "10.4.2"
   },
   "files": [
     "src"
