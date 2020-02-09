@@ -1262,9 +1262,9 @@ eslint-config-algolia@13.4.0:
   version "13.4.0"
   resolved "https://registry.yarnpkg.com/eslint-config-algolia/-/eslint-config-algolia-13.4.0.tgz#d622ae33ca6129a712a3880efd6e7c7511f08207"
 
-eslint-config-prettier@3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-3.6.0.tgz#8ca3ffac4bd6eeef623a0651f9d754900e3ec217"
+eslint-config-prettier@6.10.0:
+  version "6.10.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.10.0.tgz#7b15e303bf9c956875c948f6b21500e48ded6a7f"
   dependencies:
     get-stdin "^6.0.0"
 
